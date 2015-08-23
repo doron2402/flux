@@ -70,6 +70,14 @@ module.exports = {
         authorName: 'Brian',
         text: 'At ForwardJS?  Yeah, of course.  See you there!',
         timestamp: Date.now() - 39999
+      },
+      {
+        id: 'm_8',
+        threadID: 't_5',
+        threadName: 'Bill and Doron',
+        authorName: 'Doron',
+        text: 'Yo.',
+        timestamp: Date.now() - 1009
       }
     ]));
   }

@@ -13,12 +13,15 @@
 var MessageSection = require('./MessageSection.react');
 var React = require('react');
 var ThreadSection = require('./ThreadSection.react');
-
+var HeadSection = require('./HeadSection.react');
+var NavBarSection = require('./NavBar.react');
 var ChatApp = React.createClass({
 
   render: function() {
     return (
       <div className="chatapp">
+        <HeadSection />
+        <NavBarSection />
         <ThreadSection />
         <MessageSection />
       </div>
